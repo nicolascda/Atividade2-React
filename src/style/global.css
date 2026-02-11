@@ -1,12 +1,13 @@
 h1 {
     color:var(--azul);
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
 }
 
 button {
     border-radius: var(--borda-redonda-alta);
     padding: var(--espacamento);
     transition: 0.3s ease-in-out;
+    background-image: linear-gradient(45deg, var(--azul), var(--verde))
 }
 
 button:hover {
@@ -15,5 +16,14 @@ button:hover {
 
 body {
     display: flex; align-items: center; justify-content: center; height: 100vh;
+    
+}
+
+main {
     background-color: var(--fundo-escuro);
+    padding: var(--espacamento);
+    display: flex;
+    gap: var(--espacamento);
+    flex-direction: column;
+    border-radius: var(--borda-redonda-baixa);
 }
