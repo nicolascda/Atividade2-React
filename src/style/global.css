@@ -2,3 +2,18 @@ h1 {
     color:var(--azul);
     background-color: var(--primary-color);
 }
+
+button {
+    border-radius: var(--borda-redonda-alta);
+    padding: var(--espacamento);
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    border-color: var(--azul);
+}
+
+body {
+    display: flex; align-items: center; justify-content: center; height: 100vh;
+    background-color: var(--fundo-escuro);
+}

@@ -1,4 +1,8 @@
 :root {
     --primary-color: #6d545D;
     --azul: #33A1FD;
+    --borda-redonda-alta: 15px;
+    --borda-redonda-baixa: 5px;
+    --espacamento: 16px;
+    --fundo-escuro: black;
 }
